@@ -10,11 +10,11 @@ footer.footer{
     padding: 15px;
     position: absolute;
     bottom : 0;
-    width:100%
+    width:100%;
 }
 
 main{
-    margin: bottom 250px; 
+    margin-bottom: 250px; 
 }
 
 p{
@@ -48,3 +48,6 @@ font-size: 18px;
     }
 } 
 
+.text-justify{
+    text-align:justify;
+}
