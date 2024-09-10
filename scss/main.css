@@ -35,7 +35,7 @@
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
-  --bs-danger: #72111a;
+  --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #392C1E;
   --bs-primary-rgb: 144, 100, 39;
@@ -3097,7 +3097,7 @@ textarea.form-control-lg {
 
 .btn-danger {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #aa0202;
+  --bs-btn-bg: #dc3545;
   --bs-btn-border-color: #dc3545;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #bb2d3b;
@@ -12021,7 +12021,7 @@ p {
 .image-card {
   position: relative;
 }
-.image-card:hover .titre-image {
+.image-card:hover .titre-image, .image-card:hover .action-img-btn {
   opacity: 1;
 }
 .image-card:hover img {
@@ -12041,4 +12041,23 @@ p {
 
 .form-label {
   color: #906427;
+}
+
+.action-img-btn {
+  color: #906427;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.allreservations a {
+  display: block;
+  color: black;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
